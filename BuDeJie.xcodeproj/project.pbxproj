@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F75145C421BE6123009B4B28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F75145C321BE6123009B4B28 /* AppDelegate.m */; };
-		F75145C721BE6123009B4B28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F75145C621BE6123009B4B28 /* ViewController.m */; };
+		5CB2000ACBF20152CE8AF87B /* ZYHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB203E3F63761411B99B82B /* ZYHEssenceViewController.m */; };
+		5CB2017380EA7D25E594638E /* ZYHFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */; };
+		5CB2024800058DC8DC789981 /* ZYHPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */; };
+		5CB203606D230B04FFF54EEE /* ZYHMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2045A6E2877D493EE8167 /* ZYHMeViewController.m */; };
+		5CB2040025E19596B30441E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20C59B84A5CBD95D54720 /* AppDelegate.m */; };
+		5CB206254845C85D200BF450 /* ZYHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */; };
+		5CB20C2BC3678CFF53532572 /* ZYHNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */; };
+		5CB20CDC716530E06A6E401A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D16194DF616FAA3DAA8 /* main.m */; };
 		F75145CA21BE6123009B4B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75145C821BE6123009B4B28 /* Main.storyboard */; };
-		F75145CC21BE6124009B4B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75145CB21BE6124009B4B28 /* Assets.xcassets */; };
 		F75145CF21BE6124009B4B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75145CD21BE6124009B4B28 /* LaunchScreen.storyboard */; };
-		F75145D221BE6124009B4B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F75145D121BE6124009B4B28 /* main.m */; };
 		F75145DC21BE6124009B4B28 /* BuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75145DB21BE6124009B4B28 /* BuDeJieUITests.m */; };
+		F7AE889921BE78DC003CF141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AE889821BE78DB003CF141 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CB2027ABB291EA969872E0E /* ZYHMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHMeViewController.h; sourceTree = "<group>"; };
+		5CB2034E20BFF65CE254B03A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CB20357DFD59D016F746CBE /* ZYHHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHHomeTabBarController.h; sourceTree = "<group>"; };
+		5CB20387E8977983FF296A69 /* ZYHEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHEssenceViewController.h; sourceTree = "<group>"; };
+		5CB203E3F63761411B99B82B /* ZYHEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHEssenceViewController.m; sourceTree = "<group>"; };
+		5CB2045A6E2877D493EE8167 /* ZYHMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHMeViewController.m; sourceTree = "<group>"; };
+		5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHNewViewController.m; sourceTree = "<group>"; };
+		5CB2072B2A5044F77449F086 /* ZYHNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHNewViewController.h; sourceTree = "<group>"; };
+		5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHFriendTrendViewController.m; sourceTree = "<group>"; };
+		5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHPublishViewController.m; sourceTree = "<group>"; };
+		5CB20B4CD061AE3AC24E7870 /* ZYHPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHPublishViewController.h; sourceTree = "<group>"; };
+		5CB20C59B84A5CBD95D54720 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CB20D16194DF616FAA3DAA8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHHomeTabBarController.m; sourceTree = "<group>"; };
+		5CB20F4BE59AB0BD8B2FFC68 /* ZYHFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHFriendTrendViewController.h; sourceTree = "<group>"; };
 		F75145BF21BE6123009B4B28 /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75145C221BE6123009B4B28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F75145C321BE6123009B4B28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F75145C521BE6123009B4B28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F75145C621BE6123009B4B28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F75145C921BE6123009B4B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F75145CB21BE6124009B4B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75145CE21BE6124009B4B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F75145D021BE6124009B4B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F75145D121BE6124009B4B28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F75145D721BE6124009B4B28 /* BuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75145DB21BE6124009B4B28 /* BuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuDeJieUITests.m; sourceTree = "<group>"; };
 		F75145DD21BE6124009B4B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AE889821BE78DB003CF141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,228 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CB2000B582AF9AD2ED0B4CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB2008B13B54E7B12C69C09 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5CB201582F651CBEB1129916 /* Other */,
+				5CB20CDD111FC68853531982 /* Home(主界面) */,
+				5CB20F908F9A02A73FAFE492 /* Essence(精华) */,
+				5CB20A95CD974A77BCB8C967 /* FriendTrend(关注) */,
+				5CB2024E85A2C057533C2A46 /* Me(我) */,
+				5CB205B4FAF216C7F212D4E5 /* New(新帖) */,
+				5CB20EF5E070C3D9911980E9 /* Publish(发布) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5CB201582F651CBEB1129916 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20D16194DF616FAA3DAA8 /* main.m */,
+				5CB2034E20BFF65CE254B03A /* AppDelegate.h */,
+				5CB20C59B84A5CBD95D54720 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5CB2019623615DCB7DED615E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB2024E85A2C057533C2A46 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB2000B582AF9AD2ED0B4CB /* View */,
+				5CB20DA326C21BD8D71AB3AA /* Model */,
+				5CB20541C0E535E06D7EE818 /* Controller */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		5CB202CE7B38F978CFB355DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB2035C0F29AA80C048E983 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20357DFD59D016F746CBE /* ZYHHomeTabBarController.h */,
+				5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB204CFB25FCF909D4C4C21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB20541C0E535E06D7EE818 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB2027ABB291EA969872E0E /* ZYHMeViewController.h */,
+				5CB2045A6E2877D493EE8167 /* ZYHMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB205B4FAF216C7F212D4E5 /* New(新帖) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB202CE7B38F978CFB355DD /* View */,
+				5CB2065479A27A7275D06177 /* Model */,
+				5CB209CBF82579FD1E57D1BE /* Controller */,
+			);
+			path = "New(新帖)";
+			sourceTree = "<group>";
+		};
+		5CB2065479A27A7275D06177 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB2065ED15B346D7E2438C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20387E8977983FF296A69 /* ZYHEssenceViewController.h */,
+				5CB203E3F63761411B99B82B /* ZYHEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB206C975C5C389E5AABBD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB2084C3A38116B298C1E83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20B4CD061AE3AC24E7870 /* ZYHPublishViewController.h */,
+				5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB208DA60D57B12DB48BF4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB2099E86B1C6F7ECF32A19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB209CBF82579FD1E57D1BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB2072B2A5044F77449F086 /* ZYHNewViewController.h */,
+				5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB20A862F6314DB52BDD634 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20F4BE59AB0BD8B2FFC68 /* ZYHFriendTrendViewController.h */,
+				5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB20A95CD974A77BCB8C967 /* FriendTrend(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20BC1B432CDDA53331973 /* View */,
+				5CB20F65576F7911AE554379 /* Model */,
+				5CB20A862F6314DB52BDD634 /* Controller */,
+			);
+			path = "FriendTrend(关注)";
+			sourceTree = "<group>";
+		};
+		5CB20BC1B432CDDA53331973 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB20CDD111FC68853531982 /* Home(主界面) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB208DA60D57B12DB48BF4A /* View */,
+				5CB20D1942741144DDF4A9E5 /* Model */,
+				5CB2035C0F29AA80C048E983 /* Controller */,
+			);
+			path = "Home(主界面)";
+			sourceTree = "<group>";
+		};
+		5CB20D1942741144DDF4A9E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB20DA326C21BD8D71AB3AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB20EF5E070C3D9911980E9 /* Publish(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB2099E86B1C6F7ECF32A19 /* View */,
+				5CB204CFB25FCF909D4C4C21 /* Model */,
+				5CB2084C3A38116B298C1E83 /* Controller */,
+			);
+			path = "Publish(发布)";
+			sourceTree = "<group>";
+		};
+		5CB20F65576F7911AE554379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB20F908F9A02A73FAFE492 /* Essence(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB2019623615DCB7DED615E /* View */,
+				5CB206C975C5C389E5AABBD3 /* Model */,
+				5CB2065ED15B346D7E2438C8 /* Controller */,
+			);
+			path = "Essence(精华)";
+			sourceTree = "<group>";
+		};
 		F75145B621BE6123009B4B28 = {
 			isa = PBXGroup;
 			children = (
@@ -81,15 +318,11 @@
 		F75145C121BE6123009B4B28 /* BuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				F75145C221BE6123009B4B28 /* AppDelegate.h */,
-				F75145C321BE6123009B4B28 /* AppDelegate.m */,
-				F75145C521BE6123009B4B28 /* ViewController.h */,
-				F75145C621BE6123009B4B28 /* ViewController.m */,
-				F75145C821BE6123009B4B28 /* Main.storyboard */,
-				F75145CB21BE6124009B4B28 /* Assets.xcassets */,
-				F75145CD21BE6124009B4B28 /* LaunchScreen.storyboard */,
+				F7AE889821BE78DB003CF141 /* Assets.xcassets */,
 				F75145D021BE6124009B4B28 /* Info.plist */,
-				F75145D121BE6124009B4B28 /* main.m */,
+				F75145CD21BE6124009B4B28 /* LaunchScreen.storyboard */,
+				F75145C821BE6123009B4B28 /* Main.storyboard */,
+				5CB2008B13B54E7B12C69C09 /* Classes */,
 			);
 			path = BuDeJie;
 			sourceTree = "<group>";
@@ -147,6 +380,7 @@
 		F75145B721BE6123009B4B28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZYH;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = GoodNight;
 				TargetAttributes = {
@@ -184,7 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F75145CF21BE6124009B4B28 /* LaunchScreen.storyboard in Resources */,
-				F75145CC21BE6124009B4B28 /* Assets.xcassets in Resources */,
+				F7AE889921BE78DC003CF141 /* Assets.xcassets in Resources */,
 				F75145CA21BE6123009B4B28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,9 +437,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75145C721BE6123009B4B28 /* ViewController.m in Sources */,
-				F75145D221BE6124009B4B28 /* main.m in Sources */,
-				F75145C421BE6123009B4B28 /* AppDelegate.m in Sources */,
+				5CB20CDC716530E06A6E401A /* main.m in Sources */,
+				5CB2040025E19596B30441E7 /* AppDelegate.m in Sources */,
+				5CB206254845C85D200BF450 /* ZYHHomeTabBarController.m in Sources */,
+				5CB2000ACBF20152CE8AF87B /* ZYHEssenceViewController.m in Sources */,
+				5CB2017380EA7D25E594638E /* ZYHFriendTrendViewController.m in Sources */,
+				5CB203606D230B04FFF54EEE /* ZYHMeViewController.m in Sources */,
+				5CB20C2BC3678CFF53532572 /* ZYHNewViewController.m in Sources */,
+				5CB2024800058DC8DC789981 /* ZYHPublishViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,13 +605,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;
 				INFOPLIST_FILE = BuDeJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vip.ruoyun.BuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,13 +623,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;
 				INFOPLIST_FILE = BuDeJie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = vip.ruoyun.BuDeJie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
