@@ -7,6 +7,7 @@
 //
 
 #import "ZYHTabBar.h"
+#import "UIView+Frame.h"
 
 @interface ZYHTabBar ()
 @property(nonatomic, weak) UIButton *plusButton;
@@ -29,8 +30,8 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     NSInteger count = self.items.count + 1;
-    CGFloat btnW = self.frame.size.width / count;
-    CGFloat btnH = self.frame.size.height;
+    CGFloat btnW = self.zyh_width / count;
+    CGFloat btnH = self.zyh_height;
     CGFloat btnX = 0;
 
     NSLog(@"%@", self.subviews);
@@ -39,7 +40,7 @@
         if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
             //NSLog(@"%@", tabBarButton);
             if (i == 0) {
-                btnH = tabBarButton.frame.size.height;
+                btnH = tabBarButton.zyh_height;
             }
             if (i == 2) {
                 i += 1;
@@ -50,7 +51,7 @@
         }
     }
     //设置加号按钮
-    self.plusButton.center = CGPointMake(self.frame.size.width * 0.5f, btnH * 0.5f);
+    self.plusButton.center = CGPointMake(self.zyh_width * 0.5f, btnH * 0.5f);
 }
 
 @end

@@ -99,7 +99,6 @@
     essenceVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_essence_icon"];
     essenceVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_essence_click_icon"];
     essenceVC.tabBarItem.title = @"精华";
-    essenceVC.navigationItem.title = @"精华";
     [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:essenceVC]];
 
     //新帖界面
@@ -107,7 +106,6 @@
     newVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_new_icon"];
     newVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_new_click_icon"];
     newVC.tabBarItem.title = @"新帖";
-    newVC.navigationItem.title = @"新帖";
     [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:newVC]];
 
 
@@ -124,7 +122,6 @@
     friendTrendVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_friendTrends_icon"];
     friendTrendVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_friendTrends_click_icon"];
     friendTrendVC.tabBarItem.title = @"关注";
-    friendTrendVC.navigationItem.title = @"关注";
     [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:friendTrendVC]];
 
 
@@ -133,7 +130,6 @@
     meVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_me_icon"];
     meVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_me_click_icon"];
     meVC.tabBarItem.title = @"我";
-    meVC.navigationItem.title = @"我";
     [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:meVC]];
 }
 
@@ -145,10 +141,10 @@
  */
 //设置 tabBar 上所有按钮内容
 - (void)setupAllTitleButton {
-    UINavigationController *nav0 = self.childViewControllers[0];
-    UINavigationController *nav1 = self.childViewControllers[1];
-    UINavigationController *nav2 = self.childViewControllers[2];
-    UINavigationController *nav3 = self.childViewControllers[3];
+//    UINavigationController *nav0 = self.childViewControllers[0];
+//    UINavigationController *nav1 = self.childViewControllers[1];
+//    UINavigationController *nav2 = self.childViewControllers[2];
+//    UINavigationController *nav3 = self.childViewControllers[3];
 }
 
 @end

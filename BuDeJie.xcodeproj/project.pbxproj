@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		5CB2000ACBF20152CE8AF87B /* ZYHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB203E3F63761411B99B82B /* ZYHEssenceViewController.m */; };
 		5CB2017380EA7D25E594638E /* ZYHFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */; };
+		5CB201DFC750405FE4BBF609 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5CB207E976DE4132B836888F /* Podfile */; };
 		5CB2024800058DC8DC789981 /* ZYHPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */; };
 		5CB203606D230B04FFF54EEE /* ZYHMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2045A6E2877D493EE8167 /* ZYHMeViewController.m */; };
 		5CB2040025E19596B30441E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20C59B84A5CBD95D54720 /* AppDelegate.m */; };
+		5CB2042EC03DC1A678798BA4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */; };
 		5CB206254845C85D200BF450 /* ZYHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */; };
 		5CB20B399D095840A6957651 /* ZYHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049603A322D69A56D55E /* ZYHTabBar.m */; };
 		5CB20C2BC3678CFF53532572 /* ZYHNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */; };
@@ -35,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		5CB2014A28FB95F5FA0564AD /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		5CB2027ABB291EA969872E0E /* ZYHMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHMeViewController.h; sourceTree = "<group>"; };
 		5CB2034E20BFF65CE254B03A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CB20357DFD59D016F746CBE /* ZYHHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHHomeTabBarController.h; sourceTree = "<group>"; };
@@ -45,7 +48,10 @@
 		5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHNewViewController.m; sourceTree = "<group>"; };
 		5CB20624A794BB06EE1A7712 /* ZYHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTabBar.h; sourceTree = "<group>"; };
 		5CB2072B2A5044F77449F086 /* ZYHNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHNewViewController.h; sourceTree = "<group>"; };
+		5CB207E976DE4132B836888F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHFriendTrendViewController.m; sourceTree = "<group>"; };
+		5CB2084E2ED5D92ECBDC469B /* BuDeJie.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
+		5CB2094007573BE546FDF9A0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHPublishViewController.m; sourceTree = "<group>"; };
 		5CB20B4CD061AE3AC24E7870 /* ZYHPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHPublishViewController.h; sourceTree = "<group>"; };
 		5CB20C59B84A5CBD95D54720 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 				5CB2034E20BFF65CE254B03A /* AppDelegate.h */,
 				5CB20C59B84A5CBD95D54720 /* AppDelegate.m */,
 				5CB20DD09A9E5F244BDF8136 /* Tools(工具类) */,
+				5CB2084E2ED5D92ECBDC469B /* BuDeJie.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -284,6 +291,8 @@
 			children = (
 				5CB2014A28FB95F5FA0564AD /* UIImage+Image.m */,
 				5CB20D0D5C0927F01ED6FFEC /* UIImage+Image.h */,
+				5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */,
+				5CB2094007573BE546FDF9A0 /* UIView+Frame.h */,
 			);
 			path = "Tools(工具类)";
 			sourceTree = "<group>";
@@ -321,6 +330,7 @@
 				F75145C121BE6123009B4B28 /* BuDeJie */,
 				F75145DA21BE6124009B4B28 /* BuDeJieUITests */,
 				F75145C021BE6123009B4B28 /* Products */,
+				5CB207E976DE4132B836888F /* Podfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -438,6 +448,7 @@
 				F75145CF21BE6124009B4B28 /* LaunchScreen.storyboard in Resources */,
 				F7AE889921BE78DC003CF141 /* Assets.xcassets in Resources */,
 				F75145CA21BE6123009B4B28 /* Main.storyboard in Resources */,
+				5CB201DFC750405FE4BBF609 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +476,7 @@
 				5CB2024800058DC8DC789981 /* ZYHPublishViewController.m in Sources */,
 				5CB20F1654932AFB0C68E02D /* UIImage+Image.m in Sources */,
 				5CB20B399D095840A6957651 /* ZYHTabBar.m in Sources */,
+				5CB2042EC03DC1A678798BA4 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +636,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;
 				INFOPLIST_FILE = BuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -642,6 +656,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BuDeJie/Classes/Other/BuDeJie.pch;
 				INFOPLIST_FILE = BuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,31 @@
+//
+//  BuDeJie.pch
+//  BuDeJie
+//
+//  Created by 若云 on 2018-12-12.
+//  Copyright © 2018 GoodNight. All rights reserved.
+//
+
+#ifndef BuDeJie_pch
+#define BuDeJie_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__ // 只有oc文件才导入
+
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+
+#ifdef DEBUG //调试阶段
+#define ZYHLog(...) NSLog(__VA_ARGS__)
+#define ZYHFunc NSLog(@"%s", __func__)
+#else //发布阶段
+#define ZYHLog(...)
+#define ZYHFunc
+#endif /* DEBUG */
+
+#endif /* __OBJC__ */
+
+
+#endif /* BuDeJie_pch */
