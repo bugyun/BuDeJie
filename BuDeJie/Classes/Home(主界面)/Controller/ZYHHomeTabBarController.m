@@ -68,6 +68,7 @@
     [self setupTabBar];
 }
 
+//在 view 即将要显示的时候,才对 view 进行绘制. 调用 layoutSubviews 方法
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSLog(@"%s", __func__);
@@ -110,12 +111,12 @@
     [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:newVC]];
 
 
-    //发布界面
-    ZYHPublishViewController *publishVC = [[ZYHPublishViewController alloc] init];
-    publishVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_publish_icon"];
-    publishVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_publish_click_icon"];
-    [self addChildViewController:publishVC];
-    publishVC.tabBarItem.imageInsets = UIEdgeInsetsMake(7, 0, -7, 0);
+//    //发布界面
+//    ZYHPublishViewController *publishVC = [[ZYHPublishViewController alloc] init];
+//    publishVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_publish_icon"];
+//    publishVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_publish_click_icon"];
+//    [self addChildViewController:publishVC];
+//    publishVC.tabBarItem.imageInsets = UIEdgeInsetsMake(7, 0, -7, 0);
 
 
     //关注界面
@@ -148,7 +149,6 @@
     UINavigationController *nav1 = self.childViewControllers[1];
     UINavigationController *nav2 = self.childViewControllers[2];
     UINavigationController *nav3 = self.childViewControllers[3];
-    UINavigationController *nav4 = self.childViewControllers[4];
 }
 
 @end
