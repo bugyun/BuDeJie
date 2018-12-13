@@ -11,9 +11,9 @@
 #import "ZYHFriendTrendViewController.h"
 #import "ZYHMeViewController.h"
 #import "ZYHNewViewController.h"
-#import "ZYHPublishViewController.h"
 #import "UIImage+Image.h"
 #import "ZYHTabBar.h"
+#import "ZYHNavigationController.h"
 
 /**
  * 谁的事情谁管理
@@ -99,14 +99,14 @@
     essenceVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_essence_icon"];
     essenceVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_essence_click_icon"];
     essenceVC.tabBarItem.title = @"精华";
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:essenceVC]];
+    [self addChildViewController:[[ZYHNavigationController alloc] initWithRootViewController:essenceVC]];
 
     //新帖界面
     ZYHNewViewController *newVC = [[ZYHNewViewController alloc] init];
     newVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_new_icon"];
     newVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_new_click_icon"];
     newVC.tabBarItem.title = @"新帖";
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:newVC]];
+    [self addChildViewController:[[ZYHNavigationController alloc] initWithRootViewController:newVC]];
 
 
 //    //发布界面
@@ -122,7 +122,7 @@
     friendTrendVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_friendTrends_icon"];
     friendTrendVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_friendTrends_click_icon"];
     friendTrendVC.tabBarItem.title = @"关注";
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:friendTrendVC]];
+    [self addChildViewController:[[ZYHNavigationController alloc] initWithRootViewController:friendTrendVC]];
 
 
     //我界面
@@ -130,7 +130,7 @@
     meVC.tabBarItem.image = [UIImage imageWithOriginalModeNamed:@"tabBar_me_icon"];
     meVC.tabBarItem.selectedImage = [UIImage imageWithOriginalModeNamed:@"tabBar_me_click_icon"];
     meVC.tabBarItem.title = @"我";
-    [self addChildViewController:[[UINavigationController alloc] initWithRootViewController:meVC]];
+    [self addChildViewController:[[ZYHNavigationController alloc] initWithRootViewController:meVC]];
 }
 
 /**

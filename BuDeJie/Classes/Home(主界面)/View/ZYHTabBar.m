@@ -29,19 +29,24 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
+    if (self.zyh_height == 0) {
+        return;
+    }
     NSInteger count = self.items.count + 1;
     CGFloat btnW = self.zyh_width / count;
-    CGFloat btnH = self.zyh_height;
+//    CGFloat btnH = 0;
+    CGFloat btnH = 49.f;
     CGFloat btnX = 0;
 
-    NSLog(@"%@", self.subviews);
+    NSLog(@"-------%@", self.subviews);
     NSInteger i = 0;
     for (UIView *tabBarButton in self.subviews) {
         if ([tabBarButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
             //NSLog(@"%@", tabBarButton);
-            if (i == 0) {
-                btnH = tabBarButton.zyh_height;
-            }
+//            if (i == 0) {
+//                btnH = tabBarButton.zyh_height;
+//                ZYHLog(@"%f", btnH);
+//            }
             if (i == 2) {
                 i += 1;
             }

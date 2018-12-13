@@ -12,9 +12,11 @@
 		5CB201DFC750405FE4BBF609 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5CB207E976DE4132B836888F /* Podfile */; };
 		5CB2024800058DC8DC789981 /* ZYHPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */; };
 		5CB203606D230B04FFF54EEE /* ZYHMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2045A6E2877D493EE8167 /* ZYHMeViewController.m */; };
+		5CB203700CCF37524EF1F8DA /* ZYHSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB200A1FE62EB16C5013024 /* ZYHSettingViewController.m */; };
 		5CB2040025E19596B30441E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20C59B84A5CBD95D54720 /* AppDelegate.m */; };
 		5CB2042EC03DC1A678798BA4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */; };
 		5CB206254845C85D200BF450 /* ZYHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */; };
+		5CB2070D26CAC293F5F8C167 /* ZYHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20E79E551047E4485292D /* ZYHNavigationController.m */; };
 		5CB20B399D095840A6957651 /* ZYHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049603A322D69A56D55E /* ZYHTabBar.m */; };
 		5CB20C2BC3678CFF53532572 /* ZYHNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */; };
 		5CB20CDC716530E06A6E401A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D16194DF616FAA3DAA8 /* main.m */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CB200A1FE62EB16C5013024 /* ZYHSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHSettingViewController.m; sourceTree = "<group>"; };
 		5CB2014A28FB95F5FA0564AD /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		5CB2027ABB291EA969872E0E /* ZYHMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHMeViewController.h; sourceTree = "<group>"; };
@@ -54,10 +57,13 @@
 		5CB2094007573BE546FDF9A0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHPublishViewController.m; sourceTree = "<group>"; };
 		5CB20B4CD061AE3AC24E7870 /* ZYHPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHPublishViewController.h; sourceTree = "<group>"; };
+		5CB20B50880F3B7BFC6283EE /* ZYHSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHSettingViewController.h; sourceTree = "<group>"; };
 		5CB20C59B84A5CBD95D54720 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5CB20D0D5C0927F01ED6FFEC /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		5CB20D16194DF616FAA3DAA8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHHomeTabBarController.m; sourceTree = "<group>"; };
+		5CB20DEBBB1041D3523B59EA /* ZYHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHNavigationController.h; sourceTree = "<group>"; };
+		5CB20E79E551047E4485292D /* ZYHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHNavigationController.m; sourceTree = "<group>"; };
 		5CB20F4BE59AB0BD8B2FFC68 /* ZYHFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHFriendTrendViewController.h; sourceTree = "<group>"; };
 		F75145BF21BE6123009B4B28 /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75145C921BE6123009B4B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,6 +110,7 @@
 				5CB2024E85A2C057533C2A46 /* Me(我) */,
 				5CB205B4FAF216C7F212D4E5 /* New(新帖) */,
 				5CB20EF5E070C3D9911980E9 /* Publish(发布) */,
+				5CB2048067F7FFC9C111148F /* Setting(设置) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -149,8 +156,20 @@
 			children = (
 				5CB20357DFD59D016F746CBE /* ZYHHomeTabBarController.h */,
 				5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */,
+				5CB20DEBBB1041D3523B59EA /* ZYHNavigationController.h */,
+				5CB20E79E551047E4485292D /* ZYHNavigationController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB2048067F7FFC9C111148F /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20EBB25F363134AC9DB75 /* View */,
+				5CB20AECFD6CDBDBD705B6AB /* Model */,
+				5CB20A057E4B0DFAE5ACBD4A /* Controller */,
+			);
+			path = "Setting(设置)";
 			sourceTree = "<group>";
 		};
 		5CB204CFB25FCF909D4C4C21 /* Model */ = {
@@ -236,6 +255,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		5CB20A057E4B0DFAE5ACBD4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB20B50880F3B7BFC6283EE /* ZYHSettingViewController.h */,
+				5CB200A1FE62EB16C5013024 /* ZYHSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5CB20A862F6314DB52BDD634 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +281,13 @@
 				5CB20A862F6314DB52BDD634 /* Controller */,
 			);
 			path = "FriendTrend(关注)";
+			sourceTree = "<group>";
+		};
+		5CB20AECFD6CDBDBD705B6AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5CB20BC1B432CDDA53331973 /* View */ = {
@@ -295,6 +330,13 @@
 				5CB2094007573BE546FDF9A0 /* UIView+Frame.h */,
 			);
 			path = "Tools(工具类)";
+			sourceTree = "<group>";
+		};
+		5CB20EBB25F363134AC9DB75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		5CB20EF5E070C3D9911980E9 /* Publish(发布) */ = {
@@ -477,6 +519,8 @@
 				5CB20F1654932AFB0C68E02D /* UIImage+Image.m in Sources */,
 				5CB20B399D095840A6957651 /* ZYHTabBar.m in Sources */,
 				5CB2042EC03DC1A678798BA4 /* UIView+Frame.m in Sources */,
+				5CB2070D26CAC293F5F8C167 /* ZYHNavigationController.m in Sources */,
+				5CB203700CCF37524EF1F8DA /* ZYHSettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
