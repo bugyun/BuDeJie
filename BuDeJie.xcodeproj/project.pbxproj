@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5CB2000ACBF20152CE8AF87B /* ZYHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB203E3F63761411B99B82B /* ZYHEssenceViewController.m */; };
 		5CB2017380EA7D25E594638E /* ZYHFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */; };
-		5CB201DFC750405FE4BBF609 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5CB207E976DE4132B836888F /* Podfile */; };
 		5CB2024800058DC8DC789981 /* ZYHPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */; };
 		5CB203606D230B04FFF54EEE /* ZYHMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2045A6E2877D493EE8167 /* ZYHMeViewController.m */; };
 		5CB203700CCF37524EF1F8DA /* ZYHSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB200A1FE62EB16C5013024 /* ZYHSettingViewController.m */; };
 		5CB20395D1BFB0927B9B1C2C /* ZYHADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB206A29EFB7C868DCC4166 /* ZYHADViewController.m */; };
 		5CB2040025E19596B30441E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20C59B84A5CBD95D54720 /* AppDelegate.m */; };
+		5CB2042EB458FDC9FB3707EB /* ZYHADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2001861DA09929A981A7A /* ZYHADModel.m */; };
 		5CB2042EC03DC1A678798BA4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */; };
 		5CB206254845C85D200BF450 /* ZYHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */; };
 		5CB2070D26CAC293F5F8C167 /* ZYHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20E79E551047E4485292D /* ZYHNavigationController.m */; };
@@ -22,6 +22,8 @@
 		5CB20C2BC3678CFF53532572 /* ZYHNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */; };
 		5CB20CDC716530E06A6E401A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D16194DF616FAA3DAA8 /* main.m */; };
 		5CB20F1654932AFB0C68E02D /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2014A28FB95F5FA0564AD /* UIImage+Image.m */; };
+		6E24197063F04FE01E614D79 /* libPods-BuDeJieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E7A88C3F3E18F9799BBA33 /* libPods-BuDeJieUITests.a */; };
+		8BB9ECF9EA82517EBE40FF06 /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7973BED20A1976D2F2801D1 /* libPods-BuDeJie.a */; };
 		F75145CA21BE6123009B4B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75145C821BE6123009B4B28 /* Main.storyboard */; };
 		F75145CF21BE6124009B4B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75145CD21BE6124009B4B28 /* LaunchScreen.storyboard */; };
 		F75145DC21BE6124009B4B28 /* BuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75145DB21BE6124009B4B28 /* BuDeJieUITests.m */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48E7A88C3F3E18F9799BBA33 /* libPods-BuDeJieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB2001861DA09929A981A7A /* ZYHADModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHADModel.m; sourceTree = "<group>"; };
 		5CB200A1FE62EB16C5013024 /* ZYHSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHSettingViewController.m; sourceTree = "<group>"; };
 		5CB2014A28FB95F5FA0564AD /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
@@ -53,7 +57,6 @@
 		5CB20624A794BB06EE1A7712 /* ZYHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTabBar.h; sourceTree = "<group>"; };
 		5CB206A29EFB7C868DCC4166 /* ZYHADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHADViewController.m; sourceTree = "<group>"; };
 		5CB2072B2A5044F77449F086 /* ZYHNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHNewViewController.h; sourceTree = "<group>"; };
-		5CB207E976DE4132B836888F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHFriendTrendViewController.m; sourceTree = "<group>"; };
 		5CB2084E2ED5D92ECBDC469B /* BuDeJie.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
 		5CB2094007573BE546FDF9A0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -68,6 +71,12 @@
 		5CB20DEBBB1041D3523B59EA /* ZYHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHNavigationController.h; sourceTree = "<group>"; };
 		5CB20E79E551047E4485292D /* ZYHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHNavigationController.m; sourceTree = "<group>"; };
 		5CB20F4BE59AB0BD8B2FFC68 /* ZYHFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHFriendTrendViewController.h; sourceTree = "<group>"; };
+		5CB20F94DB32A266E33B6691 /* ZYHADModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHADModel.h; sourceTree = "<group>"; };
+		64C7A1273D16F693A72A3E74 /* Pods-BuDeJieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieUITests.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJieUITests/Pods-BuDeJieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B09D2F668F91B2DBC9825A0E /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		B7973BED20A1976D2F2801D1 /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46E2847893A85A162808FEC /* Pods-BuDeJieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieUITests.release.xcconfig"; path = "Target Support Files/Pods-BuDeJieUITests/Pods-BuDeJieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D479AA707C0889CC80779B3F /* Pods-BuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.release.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 		F75145BF21BE6123009B4B28 /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75145C921BE6123009B4B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75145CE21BE6124009B4B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB9ECF9EA82517EBE40FF06 /* libPods-BuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +100,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E24197063F04FE01E614D79 /* libPods-BuDeJieUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57E6200692BD24673E94FFC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B09D2F668F91B2DBC9825A0E /* Pods-BuDeJie.debug.xcconfig */,
+				D479AA707C0889CC80779B3F /* Pods-BuDeJie.release.xcconfig */,
+				64C7A1273D16F693A72A3E74 /* Pods-BuDeJieUITests.debug.xcconfig */,
+				C46E2847893A85A162808FEC /* Pods-BuDeJieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5CB2000B582AF9AD2ED0B4CB /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +228,8 @@
 		5CB205DEE0059B884B867ED1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5CB2001861DA09929A981A7A /* ZYHADModel.m */,
+				5CB20F94DB32A266E33B6691 /* ZYHADModel.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -403,13 +428,23 @@
 			path = "AD(广告)";
 			sourceTree = "<group>";
 		};
+		5F74727C624A0704412378FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7973BED20A1976D2F2801D1 /* libPods-BuDeJie.a */,
+				48E7A88C3F3E18F9799BBA33 /* libPods-BuDeJieUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F75145B621BE6123009B4B28 = {
 			isa = PBXGroup;
 			children = (
 				F75145C121BE6123009B4B28 /* BuDeJie */,
 				F75145DA21BE6124009B4B28 /* BuDeJieUITests */,
 				F75145C021BE6123009B4B28 /* Products */,
-				5CB207E976DE4132B836888F /* Podfile */,
+				57E6200692BD24673E94FFC4 /* Pods */,
+				5F74727C624A0704412378FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -450,6 +485,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75145E021BE6124009B4B28 /* Build configuration list for PBXNativeTarget "BuDeJie" */;
 			buildPhases = (
+				74360B80A501E405499494DB /* [CP] Check Pods Manifest.lock */,
 				F75145BB21BE6123009B4B28 /* Sources */,
 				F75145BC21BE6123009B4B28 /* Frameworks */,
 				F75145BD21BE6123009B4B28 /* Resources */,
@@ -467,6 +503,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75145E321BE6124009B4B28 /* Build configuration list for PBXNativeTarget "BuDeJieUITests" */;
 			buildPhases = (
+				75ED627C054F97B01E3C5D59 /* [CP] Check Pods Manifest.lock */,
 				F75145D321BE6124009B4B28 /* Sources */,
 				F75145D421BE6124009B4B28 /* Frameworks */,
 				F75145D521BE6124009B4B28 /* Resources */,
@@ -527,7 +564,6 @@
 				F75145CF21BE6124009B4B28 /* LaunchScreen.storyboard in Resources */,
 				F7AE889921BE78DC003CF141 /* Assets.xcassets in Resources */,
 				F75145CA21BE6123009B4B28 /* Main.storyboard in Resources */,
-				5CB201DFC750405FE4BBF609 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +575,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74360B80A501E405499494DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuDeJie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75ED627C054F97B01E3C5D59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuDeJieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F75145BB21BE6123009B4B28 /* Sources */ = {
@@ -559,6 +642,7 @@
 				5CB2070D26CAC293F5F8C167 /* ZYHNavigationController.m in Sources */,
 				5CB203700CCF37524EF1F8DA /* ZYHSettingViewController.m in Sources */,
 				5CB20395D1BFB0927B9B1C2C /* ZYHADViewController.m in Sources */,
+				5CB2042EB458FDC9FB3707EB /* ZYHADModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +798,7 @@
 		};
 		F75145E121BE6124009B4B28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09D2F668F91B2DBC9825A0E /* Pods-BuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -734,6 +819,7 @@
 		};
 		F75145E221BE6124009B4B28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D479AA707C0889CC80779B3F /* Pods-BuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -754,6 +840,7 @@
 		};
 		F75145E421BE6124009B4B28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C7A1273D16F693A72A3E74 /* Pods-BuDeJieUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;
@@ -772,6 +859,7 @@
 		};
 		F75145E521BE6124009B4B28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46E2847893A85A162808FEC /* Pods-BuDeJieUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HHLU6JKK4A;

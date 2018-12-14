@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupNavBar];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)setupNavBar {
