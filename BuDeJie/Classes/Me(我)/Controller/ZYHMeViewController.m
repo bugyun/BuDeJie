@@ -18,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupNavBar];
+
+    self.view.backgroundColor = [UIColor greenColor];
+//    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageWithOriginalModeNamed:@"mine-moon-icon-click"]];
+//    [imageView sizeToFit];
+//    UIBarButtonItem *uiBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:imageView];
+//    self.navigationItem.backBarButtonItem = uiBarButtonItem;
+    [self.navigationController.navigationBar setBackIndicatorImage:[UIImage imageNamed:@"navigationButtonReturn"]];
+    [self.navigationController.navigationBar setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"navigationButtonReturn"]];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -51,6 +59,8 @@
     [rightNightButton addTarget:self action:@selector(night:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *rightNightButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightNightButton];
     self.navigationItem.rightBarButtonItems = @[rightSettingButtonItem, rightNightButtonItem];
+
+
 }
 
 - (void)night:(UIButton *)button {

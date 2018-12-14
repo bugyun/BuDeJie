@@ -17,9 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"设置";
+    self.view.backgroundColor = [UIColor redColor];
 
 
-    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+//    self.navigationController.interactivePopGestureRecognizer.enabled = YES;
 
 }
 

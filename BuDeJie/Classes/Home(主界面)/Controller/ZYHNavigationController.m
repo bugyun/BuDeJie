@@ -30,13 +30,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationBar.backIndicatorImage = [UIImage imageWithOriginalModeNamed:@"mine-moon-icon-click"];
+//    self.navigationBar.tintColor = [UIColor blackColor];
 //    self.interactivePopGestureRecognizer.delegate = self;
 //    self.interactivePopGestureRecognizer.enabled = YES;
     ZYHLog(@"%@", self.interactivePopGestureRecognizer);
-    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
-    pan.delegate = self;
-    [self.view addGestureRecognizer:pan];
-    self.interactivePopGestureRecognizer.enabled = NO;//禁止之前的手势
+//    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
+//    pan.delegate = self;
+//    [self.view addGestureRecognizer:pan];
+//    self.interactivePopGestureRecognizer.enabled = NO;//禁止之前的手势
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
@@ -47,16 +49,17 @@
     //统一设置返回按钮
     if (self.viewControllers.count > 0) {
         //恢复滑动返回功能 -> 分析:把系统的返回按钮覆盖 -> 1.手势失效
-        UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [backButton setTitle:@"返回" forState:UIControlStateNormal];
-        [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
-        [backButton setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
-        [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        [backButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
-        backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
-        [backButton sizeToFit];
-        [backButton addTarget:self action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+//        UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//        [backButton setTitle:@"返回" forState:UIControlStateNormal];
+//        [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
+//        [backButton setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
+//        [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//        [backButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+//        backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
+//        [backButton sizeToFit];
+//        [backButton addTarget:self action:@selector(back:) forControlEvents:UIControlEventTouchUpInside];
+////        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+//        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
         //    self.navigationItem.leftBarButtonItem.title = @"返回";
         //    self.navigationItem.leftBarButtonItem.image = [UIImage imageWithOriginalModeNamed:@"navigationButtonReturn"];
     }

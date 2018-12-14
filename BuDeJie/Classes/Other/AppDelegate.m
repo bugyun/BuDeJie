@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ZYHHomeTabBarController.h"
+#import "ZYHADViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +19,8 @@
 //程序启动的时候就会调用
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    ZYHHomeTabBarController *uiTabBarVC = [[ZYHHomeTabBarController alloc] init];
-    self.window.rootViewController = uiTabBarVC;
+    ZYHADViewController *uiAdVC = [[ZYHADViewController alloc] init];
+    self.window.rootViewController = uiAdVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
