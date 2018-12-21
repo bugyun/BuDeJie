@@ -7,6 +7,7 @@
 //
 
 #import "ZYHFriendTrendViewController.h"
+#import "ZYHLoginViewController.h"
 
 @interface ZYHFriendTrendViewController ()
 
@@ -16,8 +17,52 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     [self setupNavBar];
-    [self.view setBackgroundColor:[UIColor grayColor]];
+
+    //初始化 view
+    [self setupView];
+}
+
+- (void)setupView {
+    UILabel *uiLabel = [[UILabel alloc] init];
+
+    NSString *str = @"快快登录吧,关注百思最in牛人 "\
+ "好友动态让你过把瘾~" \
+ "欧耶~~~!";
+    uiLabel.text = str;
+    [uiLabel sizeToFit];
+    uiLabel.center = self.view.center;
+    uiLabel.numberOfLines = 0;
+    uiLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:uiLabel];
+
+
+    UIImageView *uiImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header_cry_icon"]];
+    uiImageView.center = CGPointMake(self.view.center.x, self.view.center.y - 50);
+    [self.view addSubview:uiImageView];
+
+
+    UIButton *uiButton = [UIButton buttonWithType:UIButtonTypeCustom];
+
+    [uiButton setBackgroundImage:[UIImage imageNamed:@"friendsTrend_login"] forState:UIControlStateNormal];
+    [uiButton setBackgroundImage:[UIImage imageNamed:@"friendsTrend_login_click"] forState:UIControlStateHighlighted];
+    [uiButton setTitle:@"立即登录注册" forState:UIControlStateNormal];
+    [uiButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [uiButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
+
+    [uiButton sizeToFit];
+    uiButton.center = CGPointMake(self.view.center.x, self.view.center.y + 50);
+    [uiButton addTarget:self action:@selector(loginClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:uiButton];
+
+}
+
+- (void)loginClick {
+    ZYHLoginViewController *loginVC = [[ZYHLoginViewController alloc] init];
+    [self presentViewController:loginVC animated:YES completion:^{
+
+    }];
 }
 
 - (void)setupNavBar {
@@ -29,7 +74,6 @@
     [leftButton addTarget:self action:@selector(game:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *leftButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
     self.navigationItem.leftBarButtonItem = leftButtonItem;
-
     //中间
     self.navigationItem.title = @"我的关注";
 }

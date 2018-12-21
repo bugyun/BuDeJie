@@ -7,6 +7,8 @@
 //
 
 #import "ZYHNewViewController.h"
+#import "ZYHSubTagViewController.h"
+
 
 @interface ZYHNewViewController ()
 
@@ -26,13 +28,21 @@
     [leftButton setImage:[UIImage imageNamed:@"MainTagSubIcon"] forState:UIControlStateNormal];
     [leftButton setImage:[UIImage imageNamed:@"MainTagSubIconClick"] forState:UIControlStateHighlighted];
     [leftButton sizeToFit];
-    [leftButton addTarget:self action:@selector(game:) forControlEvents:UIControlEventTouchUpInside];
+    [leftButton addTarget:self action:@selector(tagClick:) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *leftButtonItem = [[UIBarButtonItem alloc] initWithCustomView:leftButton];
     self.navigationItem.leftBarButtonItem = leftButtonItem;
 }
 
-- (void)game:(UIButton *)game {
+- (void)tagClick:(UIButton *)game {
     ZYHFunc;
+    ZYHSubTagViewController *subTagVC = [[ZYHSubTagViewController alloc] init];
+    subTagVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:subTagVC animated:YES];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.tabBar.hidden = NO;
 }
 
 @end

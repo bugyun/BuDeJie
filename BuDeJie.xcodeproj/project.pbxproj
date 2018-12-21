@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CB20003966F2BDA39396DCF /* ZYHLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20A28ADA78BC32AA34E10 /* ZYHLoginRegisterView.m */; };
 		5CB2000ACBF20152CE8AF87B /* ZYHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB203E3F63761411B99B82B /* ZYHEssenceViewController.m */; };
 		5CB2017380EA7D25E594638E /* ZYHFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */; };
 		5CB2024800058DC8DC789981 /* ZYHPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */; };
 		5CB203606D230B04FFF54EEE /* ZYHMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2045A6E2877D493EE8167 /* ZYHMeViewController.m */; };
 		5CB203700CCF37524EF1F8DA /* ZYHSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB200A1FE62EB16C5013024 /* ZYHSettingViewController.m */; };
 		5CB20395D1BFB0927B9B1C2C /* ZYHADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB206A29EFB7C868DCC4166 /* ZYHADViewController.m */; };
+		5CB203F8DBFEE08C1F43ED74 /* ZYHSubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB202C62BEE334B760ED220 /* ZYHSubTagViewController.m */; };
 		5CB2040025E19596B30441E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20C59B84A5CBD95D54720 /* AppDelegate.m */; };
 		5CB2042EB458FDC9FB3707EB /* ZYHADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2001861DA09929A981A7A /* ZYHADModel.m */; };
 		5CB2042EC03DC1A678798BA4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */; };
+		5CB204B257E7381F4F4AE5AC /* ZYHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20ACE44FE946B1250042B /* ZYHLoginViewController.m */; };
 		5CB206254845C85D200BF450 /* ZYHHomeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */; };
 		5CB2070D26CAC293F5F8C167 /* ZYHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20E79E551047E4485292D /* ZYHNavigationController.m */; };
+		5CB207D1A321164A0EA912F2 /* ZYHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20F01EBA32B1FB4E1D877 /* ZYHBaseViewController.m */; };
+		5CB209B6C7E9270847B343EA /* ZYHSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20DC5B450D175CFD3F84C /* ZYHSubTagItem.m */; };
+		5CB20ABBC83D65F3525771E6 /* ZYHSubTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2079CF8631C5BBD41EE66 /* ZYHSubTag.m */; };
 		5CB20B399D095840A6957651 /* ZYHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049603A322D69A56D55E /* ZYHTabBar.m */; };
 		5CB20C2BC3678CFF53532572 /* ZYHNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */; };
 		5CB20CDC716530E06A6E401A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB20D16194DF616FAA3DAA8 /* main.m */; };
@@ -27,6 +33,8 @@
 		F75145CA21BE6123009B4B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75145C821BE6123009B4B28 /* Main.storyboard */; };
 		F75145CF21BE6124009B4B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75145CD21BE6124009B4B28 /* LaunchScreen.storyboard */; };
 		F75145DC21BE6124009B4B28 /* BuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75145DB21BE6124009B4B28 /* BuDeJieUITests.m */; };
+		F79B967E21C7913200F00FF4 /* ZYHSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F79B967C21C7913200F00FF4 /* ZYHSubTagCell.m */; };
+		F79B967F21C7913200F00FF4 /* ZYHSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79B967D21C7913200F00FF4 /* ZYHSubTagCell.xib */; };
 		F7AE889921BE78DC003CF141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AE889821BE78DB003CF141 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +51,12 @@
 /* Begin PBXFileReference section */
 		48E7A88C3F3E18F9799BBA33 /* libPods-BuDeJieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB2001861DA09929A981A7A /* ZYHADModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHADModel.m; sourceTree = "<group>"; };
+		5CB2008A75B45C5426992E2D /* ZYHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHBaseViewController.h; sourceTree = "<group>"; };
 		5CB200A1FE62EB16C5013024 /* ZYHSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHSettingViewController.m; sourceTree = "<group>"; };
 		5CB2014A28FB95F5FA0564AD /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		5CB2021DB93505FB0C7D1D27 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		5CB2027ABB291EA969872E0E /* ZYHMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHMeViewController.h; sourceTree = "<group>"; };
+		5CB202C62BEE334B760ED220 /* ZYHSubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHSubTagViewController.m; sourceTree = "<group>"; };
 		5CB2034E20BFF65CE254B03A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CB20357DFD59D016F746CBE /* ZYHHomeTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHHomeTabBarController.h; sourceTree = "<group>"; };
 		5CB20387E8977983FF296A69 /* ZYHEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHEssenceViewController.h; sourceTree = "<group>"; };
@@ -57,10 +67,16 @@
 		5CB20624A794BB06EE1A7712 /* ZYHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHTabBar.h; sourceTree = "<group>"; };
 		5CB206A29EFB7C868DCC4166 /* ZYHADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHADViewController.m; sourceTree = "<group>"; };
 		5CB2072B2A5044F77449F086 /* ZYHNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHNewViewController.h; sourceTree = "<group>"; };
+		5CB207661EE2C0D542EBC883 /* ZYHSubTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHSubTag.h; sourceTree = "<group>"; };
+		5CB2079CF8631C5BBD41EE66 /* ZYHSubTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHSubTag.m; sourceTree = "<group>"; };
 		5CB208209E9465CC4C87EA65 /* ZYHFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHFriendTrendViewController.m; sourceTree = "<group>"; };
+		5CB208462A8DC77807F53BEF /* ZYHLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHLoginRegisterView.h; sourceTree = "<group>"; };
 		5CB2084E2ED5D92ECBDC469B /* BuDeJie.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
 		5CB2094007573BE546FDF9A0 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		5CB209A4DB87A77B746CB595 /* ZYHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHLoginViewController.h; sourceTree = "<group>"; };
+		5CB20A28ADA78BC32AA34E10 /* ZYHLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHLoginRegisterView.m; sourceTree = "<group>"; };
 		5CB20A7ABDD88509C7CD3011 /* ZYHPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHPublishViewController.m; sourceTree = "<group>"; };
+		5CB20ACE44FE946B1250042B /* ZYHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHLoginViewController.m; sourceTree = "<group>"; };
 		5CB20B20BFC6FB8EFA60A32C /* ZYHADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHADViewController.h; sourceTree = "<group>"; };
 		5CB20B4CD061AE3AC24E7870 /* ZYHPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHPublishViewController.h; sourceTree = "<group>"; };
 		5CB20B50880F3B7BFC6283EE /* ZYHSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHSettingViewController.h; sourceTree = "<group>"; };
@@ -68,10 +84,14 @@
 		5CB20D0D5C0927F01ED6FFEC /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		5CB20D16194DF616FAA3DAA8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CB20D44CDA1760FD086F666 /* ZYHHomeTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHHomeTabBarController.m; sourceTree = "<group>"; };
+		5CB20DC5B450D175CFD3F84C /* ZYHSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHSubTagItem.m; sourceTree = "<group>"; };
 		5CB20DEBBB1041D3523B59EA /* ZYHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHNavigationController.h; sourceTree = "<group>"; };
 		5CB20E79E551047E4485292D /* ZYHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHNavigationController.m; sourceTree = "<group>"; };
+		5CB20EFAC2765C9A228A9CD1 /* ZYHSubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHSubTagViewController.h; sourceTree = "<group>"; };
+		5CB20F01EBA32B1FB4E1D877 /* ZYHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHBaseViewController.m; sourceTree = "<group>"; };
 		5CB20F4BE59AB0BD8B2FFC68 /* ZYHFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHFriendTrendViewController.h; sourceTree = "<group>"; };
 		5CB20F94DB32A266E33B6691 /* ZYHADModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHADModel.h; sourceTree = "<group>"; };
+		5CB20FAE6EB3254140D337E9 /* ZYHSubTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHSubTagItem.h; sourceTree = "<group>"; };
 		64C7A1273D16F693A72A3E74 /* Pods-BuDeJieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJieUITests.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJieUITests/Pods-BuDeJieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B09D2F668F91B2DBC9825A0E /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		B7973BED20A1976D2F2801D1 /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +104,9 @@
 		F75145D721BE6124009B4B28 /* BuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75145DB21BE6124009B4B28 /* BuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuDeJieUITests.m; sourceTree = "<group>"; };
 		F75145DD21BE6124009B4B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F79B967B21C7913200F00FF4 /* ZYHSubTagCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHSubTagCell.h; sourceTree = "<group>"; };
+		F79B967C21C7913200F00FF4 /* ZYHSubTagCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHSubTagCell.m; sourceTree = "<group>"; };
+		F79B967D21C7913200F00FF4 /* ZYHSubTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYHSubTagCell.xib; sourceTree = "<group>"; };
 		F7AE889821BE78DB003CF141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +138,6 @@
 				64C7A1273D16F693A72A3E74 /* Pods-BuDeJieUITests.debug.xcconfig */,
 				C46E2847893A85A162808FEC /* Pods-BuDeJieUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +160,7 @@
 				5CB20EF5E070C3D9911980E9 /* Publish(发布) */,
 				5CB2048067F7FFC9C111148F /* Setting(设置) */,
 				5CB20FF05A440E367EF53644 /* AD(广告) */,
+				5CB20F71D42037005A286EBB /* Login(登录) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -150,6 +173,8 @@
 				5CB20C59B84A5CBD95D54720 /* AppDelegate.m */,
 				5CB20DD09A9E5F244BDF8136 /* Tools(工具类) */,
 				5CB2084E2ED5D92ECBDC469B /* BuDeJie.pch */,
+				5CB2008A75B45C5426992E2D /* ZYHBaseViewController.h */,
+				5CB20F01EBA32B1FB4E1D877 /* ZYHBaseViewController.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -174,6 +199,9 @@
 		5CB202CE7B38F978CFB355DD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F79B967B21C7913200F00FF4 /* ZYHSubTagCell.h */,
+				F79B967C21C7913200F00FF4 /* ZYHSubTagCell.m */,
+				F79B967D21C7913200F00FF4 /* ZYHSubTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +215,15 @@
 				5CB20E79E551047E4485292D /* ZYHNavigationController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB2039ADB8DC173B44383B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CB208462A8DC77807F53BEF /* ZYHLoginRegisterView.h */,
+				5CB20A28ADA78BC32AA34E10 /* ZYHLoginRegisterView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		5CB2048067F7FFC9C111148F /* Setting(设置) */ = {
@@ -237,6 +274,10 @@
 		5CB2065479A27A7275D06177 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5CB20DC5B450D175CFD3F84C /* ZYHSubTagItem.m */,
+				5CB20FAE6EB3254140D337E9 /* ZYHSubTagItem.h */,
+				5CB2079CF8631C5BBD41EE66 /* ZYHSubTag.m */,
+				5CB207661EE2C0D542EBC883 /* ZYHSubTag.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -255,6 +296,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB2075654A82C3C1F5C1377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB209A4DB87A77B746CB595 /* ZYHLoginViewController.h */,
+				5CB20ACE44FE946B1250042B /* ZYHLoginViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		5CB2084C3A38116B298C1E83 /* Controller */ = {
@@ -287,6 +337,8 @@
 			children = (
 				5CB2072B2A5044F77449F086 /* ZYHNewViewController.h */,
 				5CB2049FB03BEFE7E28A5B92 /* ZYHNewViewController.m */,
+				5CB20EFAC2765C9A228A9CD1 /* ZYHSubTagViewController.h */,
+				5CB202C62BEE334B760ED220 /* ZYHSubTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -349,6 +401,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		5CB20C930A13BAD65038D4AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5CB20CDD111FC68853531982 /* Home(主界面) */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +465,16 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB20F71D42037005A286EBB /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				5CB2039ADB8DC173B44383B6 /* View */,
+				5CB20C930A13BAD65038D4AF /* Model */,
+				5CB2075654A82C3C1F5C1377 /* Controller */,
+			);
+			path = "Login(登录)";
 			sourceTree = "<group>";
 		};
 		5CB20F908F9A02A73FAFE492 /* Essence(精华) */ = {
@@ -489,6 +558,7 @@
 				F75145BB21BE6123009B4B28 /* Sources */,
 				F75145BC21BE6123009B4B28 /* Frameworks */,
 				F75145BD21BE6123009B4B28 /* Resources */,
+				7855F428C102E53D5F105B1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -564,6 +634,7 @@
 				F75145CF21BE6124009B4B28 /* LaunchScreen.storyboard in Resources */,
 				F7AE889921BE78DC003CF141 /* Assets.xcassets in Resources */,
 				F75145CA21BE6123009B4B28 /* Main.storyboard in Resources */,
+				F79B967F21C7913200F00FF4 /* ZYHSubTagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +692,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7855F428C102E53D5F105B1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -631,6 +724,7 @@
 				5CB20CDC716530E06A6E401A /* main.m in Sources */,
 				5CB2040025E19596B30441E7 /* AppDelegate.m in Sources */,
 				5CB206254845C85D200BF450 /* ZYHHomeTabBarController.m in Sources */,
+				F79B967E21C7913200F00FF4 /* ZYHSubTagCell.m in Sources */,
 				5CB2000ACBF20152CE8AF87B /* ZYHEssenceViewController.m in Sources */,
 				5CB2017380EA7D25E594638E /* ZYHFriendTrendViewController.m in Sources */,
 				5CB203606D230B04FFF54EEE /* ZYHMeViewController.m in Sources */,
@@ -643,6 +737,12 @@
 				5CB203700CCF37524EF1F8DA /* ZYHSettingViewController.m in Sources */,
 				5CB20395D1BFB0927B9B1C2C /* ZYHADViewController.m in Sources */,
 				5CB2042EB458FDC9FB3707EB /* ZYHADModel.m in Sources */,
+				5CB203F8DBFEE08C1F43ED74 /* ZYHSubTagViewController.m in Sources */,
+				5CB209B6C7E9270847B343EA /* ZYHSubTagItem.m in Sources */,
+				5CB20ABBC83D65F3525771E6 /* ZYHSubTag.m in Sources */,
+				5CB204B257E7381F4F4AE5AC /* ZYHLoginViewController.m in Sources */,
+				5CB20003966F2BDA39396DCF /* ZYHLoginRegisterView.m in Sources */,
+				5CB207D1A321164A0EA912F2 /* ZYHBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@ target 'BuDeJie' do
   pod 'AFNetworking', '~> 3.2.1'
   pod 'SDWebImage', '~>4.4.3'
   pod 'YYModel', '~>1.0.4'
+  pod 'SVProgressHUD', '~>2.2.5'
 
   target 'BuDeJieUITests' do
     inherit! :search_paths
